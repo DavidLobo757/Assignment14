@@ -13,7 +13,7 @@ var user = sessionStorage.getItem("user")
 if (user == null) {
 	let username = window.prompt("What's your name?", "New User")
 	while (username === '' || username == null) {
-		name = prompt("What's your name", "New User")
+		username = prompt("What's your name", "New User")
 	}
 	
 	
